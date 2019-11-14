@@ -13,7 +13,7 @@ const sequelize = new Sequelize('g', 'root', 'Gozde2799', {
 });
 
 console.log("hellooo");
-
+console.log("slm");
 const Model = Sequelize.Model;
 
 class Order extends Model { }

@@ -14,6 +14,8 @@ const sequelize = new Sequelize('g', 'root', 'Gozde2799', {
 
 console.log("hellooo");
 console.log("branch1deyim");
+console.log("branch2deyim");
+
 
 const Model = Sequelize.Model;
 

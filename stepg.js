@@ -4,7 +4,6 @@ const moment = require('moment');
 const Op = Sequelize.Op;
 
 
-
 const app = express();
 
 const sequelize = new Sequelize('g', 'root', 'Gozde2799', {
@@ -12,6 +11,8 @@ const sequelize = new Sequelize('g', 'root', 'Gozde2799', {
   // port:3306,
   dialect: 'mysql'
 });
+
+console.log("hellooo");
 
 const Model = Sequelize.Model;
 
